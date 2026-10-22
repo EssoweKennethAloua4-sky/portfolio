@@ -1,0 +1,199 @@
+{
+  "identite": {
+    "nom_complet": "Essowe Kenneth Aloua",
+    "ligne1": "Essowe Kenneth",
+    "ligne2": "Aloua",
+    "identifiant": "essowe.kenneth.aloua",
+    "email": "kennethaloua3@gmail.com",
+    "domaines": "Cybersécurité, Réseaux, Données, Grenoble",
+    "terminal_profil": "Étudiant en informatique, orienté cybersécurité.\nEtudiant à Grenoble.",
+    "terminal_competences": "réseaux, supervision, développement",
+    "statut": "Recherche de stage",
+    "niveau": "Étudiant · L1",
+    "base": "Grenoble, France",
+    "origine": "Lomé, Togo",
+    "formation": "L1 à l'Université Grenoble Alpes",
+    "cap": "Master en cybersécurité, puis conformité et protection des données (DPO)",
+    "presentation": "J'ai commencé par la cybersécurité à Lomé : réseaux, Active Directory, supervision. J'ai appris à regarder un système comme un attaquant le ferait, puis à le surveiller comme un défenseur.\n\nAujourd'hui à Grenoble, je consolide mes bases en mathématiques et en informatique, avec un cap : un master en cybersécurité, et à terme la protection des données."
+  },
+  "parcours": [
+    {
+      "quand": "Lomé",
+      "etat": "fait",
+      "titre": "Licence 1 Cybersécurité · iP Net Institute of Technology",
+      "texte": "Réseaux, Active Directory, déploiement de postes, supervision, modélisation UML et Merise."
+    },
+    {
+      "quand": "Cisco",
+      "etat": "fait",
+      "titre": "Certifications Cisco NetAcad",
+      "texte": "Dont le cours d'introduction à la science des données."
+    },
+    {
+      "quand": "Sept. 2026",
+      "etat": "en_cours",
+      "titre": "L1 MIASHS · Université Grenoble Alpes",
+      "texte": "Mathématiques et informatique appliquées aux sciences humaines et sociales."
+    },
+    {
+      "quand": "Oct. 2026",
+      "etat": "en_cours",
+      "titre": "Demande de réorientation",
+      "texte": "Vers le parcours Informatique, Mathématiques et Applications."
+    },
+    {
+      "quand": "Objectif",
+      "etat": "prevu",
+      "titre": "Master en cybersécurité",
+      "texte": "Puis la conformité numérique et la protection des données."
+    }
+  ],
+  "projets": [
+    {
+      "code": "DOSSIER-01",
+      "categorie": "Détection",
+      "contexte": "Projet solo",
+      "note": "15/20",
+      "mise_en_avant": true,
+      "titre": "IDS Monitor",
+      "resume": "Un logiciel qui surveille le réseau et prévient quand il voit un comportement suspect.",
+      "mots_cles": "Détection d'intrusion, Alertes, Historique",
+      "outils": "Python, Tkinter, MySQL",
+      "pour_debutant": "Un IDS, ou système de détection d'intrusion, joue le rôle d'une caméra de surveillance pour un réseau informatique. Il observe les échanges entre les ordinateurs et les compare à des comportements suspects connus.\n\nExemple : quelqu'un qui « frappe à toutes les portes » d'un ordinateur pour trouver une entrée ouverte. On appelle ça un balayage de ports. L'IDS ne bloque rien lui-même : son travail est de repérer et de prévenir.",
+      "ce_que_jai_fait": "J'ai programmé l'application seul, en Python. L'interface graphique, faite avec Tkinter, affiche les alertes à l'écran. Chaque alerte est enregistrée dans une base de données MySQL pour garder un historique consultable.",
+      "ce_que_jai_appris": "Comment circulent les échanges sur un réseau, ce qui distingue un trafic normal d'un trafic suspect, et comment relier une interface, un programme et une base de données dans une même application.",
+      "code_etat": "pas_encore",
+      "code_lien": "",
+      "rapport": ""
+    },
+    {
+      "code": "DOSSIER-02",
+      "categorie": "Supervision",
+      "contexte": "PPE 300 · équipe de 3 · chef de projet",
+      "note": "14/20",
+      "mise_en_avant": false,
+      "titre": "Supervision Zabbix",
+      "resume": "La supervision de la disponibilité et des performances d'un réseau d'entreprise avec Zabbix 7.0.",
+      "mots_cles": "Supervision, Alertes, Gestion de projet",
+      "outils": "Zabbix 7.0, VMware, Ubuntu, Windows 10, Kali Linux, PostgreSQL",
+      "pour_debutant": "Superviser un réseau, c'est vérifier en continu que chaque machine fonctionne : est-elle allumée ? Son disque est-il presque plein ? Son processeur est-il saturé ?\n\nZabbix est un logiciel libre qui fait ce travail. Un petit programme, l'agent, est installé sur chaque machine et envoie ses mesures au serveur Zabbix. Le serveur les affiche sous forme de graphiques et envoie une alerte, par exemple un e-mail, dès qu'un seuil est dépassé.\n\nVMware permet de créer plusieurs ordinateurs « virtuels » sur un seul PC. On reproduit ainsi un petit réseau d'entreprise sans acheter de matériel.",
+      "ce_que_jai_fait": "Projet professionnel de la licence Réseaux, Systèmes et Sécurité à IPNET, mené en équipe de trois. J'étais chef de projet : planning, suivi de l'avancement phase par phase et coordination.\n\nNous avons conçu l'architecture : un réseau d'entreprise découpé en VLAN derrière un pare-feu, un serveur Zabbix central, une base de données séparée et un proxy pour collecter les mesures des sites distants. Le laboratoire tournait dans VMware avec des machines Ubuntu, Windows 10 et Kali Linux.\n\nNous avons étudié 13 protocoles de supervision (SNMP, ICMP, SSH, WMI, SMTP pour les alertes, NTP…), chiffré le matériel nécessaire (6 750 € hors taxes) et rédigé le manuel de déploiement. Les démonstrations ont été présentées au jury le 2 janvier 2026.",
+      "ce_que_jai_appris": "Piloter une équipe technique avec un vrai planning, comprendre comment une entreprise détecte une panne avant ses utilisateurs, et chiffrer une solution comme pour un client.",
+      "code_etat": "infra",
+      "code_lien": "",
+      "rapport": "rapports/Rapport_Zabbix_Essowe_Kenneth_Aloua.pdf"
+    },
+    {
+      "code": "DOSSIER-03",
+      "categorie": "Programmation orientée objet",
+      "contexte": "Cours CSC 242 · TP",
+      "note": "",
+      "mise_en_avant": false,
+      "titre": "Simulation SolarWinds NPM",
+      "resume": "Un programme Python qui reproduit le fonctionnement d'un outil professionnel de supervision réseau.",
+      "mots_cles": "Programmation orientée objet, Supervision, SNMP",
+      "outils": "Python, UML",
+      "pour_debutant": "SolarWinds NPM est un logiciel payant utilisé en entreprise pour surveiller les routeurs, commutateurs et serveurs. Il les interroge avec SNMP, un langage standard : l'outil demande « quelle est ta charge ? » et l'appareil répond.\n\nLe but du TP n'était pas d'installer ce logiciel, mais d'en reproduire la logique en programmation orientée objet. Cela consiste à découper un programme en « objets » qui ressemblent aux choses réelles : un objet Routeur, un objet Commutateur, un objet Alerte. Un routeur et un commutateur partagent ce qu'ont tous les appareils réseau (une adresse IP, un état) : c'est l'héritage.",
+      "ce_que_jai_fait": "J'ai d'abord modélisé le système sur papier : un tableau des classes avec leurs attributs et leurs méthodes, puis les algorithmes.\n\nJ'ai ensuite écrit la simulation en Python, environ 800 lignes. Elle crée un petit réseau (un routeur, un commutateur, deux serveurs), interroge chaque appareil comme le ferait SNMP, enregistre les mesures, déclenche une alerte quand un seuil est dépassé et affiche un tableau de bord dans le terminal, cycle après cycle.",
+      "ce_que_jai_appris": "Passer d'un schéma de classes à un programme qui fonctionne, utiliser l'héritage et les énumérations, et comprendre de l'intérieur comment fonctionne un outil de supervision.",
+      "code_etat": "github",
+      "code_lien": "https://github.com/EssoweKennethAloua4-sky/simulation-solarwinds-npm",
+      "rapport": "rapports/Rapport_SolarWinds_NPM_Essowe_Kenneth_Aloua.pdf"
+    },
+    {
+      "code": "DOSSIER-04",
+      "categorie": "Systèmes",
+      "contexte": "Cours NET 303 · 2 TP",
+      "note": "",
+      "mise_en_avant": false,
+      "titre": "Active Directory et déploiement",
+      "resume": "Installer Windows automatiquement sur des postes par le réseau, puis concevoir l'annuaire d'une entreprise répartie sur plusieurs sites.",
+      "mots_cles": "Identités, Annuaire, Déploiement",
+      "outils": "Windows Server 2022, Windows 11, Active Directory, MDT, WDS, VMware",
+      "pour_debutant": "Active Directory est l'annuaire de Microsoft : une liste centrale de tous les utilisateurs, ordinateurs et droits d'une entreprise. Chaque employé a un seul compte pour se connecter partout, et l'administrateur gère les mots de passe et les accès depuis un seul endroit.\n\nWDS permet d'installer Windows sur un ordinateur directement par le réseau : l'ordinateur démarre sur sa carte réseau (on appelle ça le démarrage PXE) et reçoit Windows du serveur, sans clé USB. MDT automatise cette installation : pilotes, logiciels et réglages sont ajoutés tout seuls.",
+      "ce_que_jai_fait": "TP 1 : dans VMware, j'ai monté trois machines : un serveur Windows Server 2022, une machine de référence Windows 11 et un poste client vide. Sur le serveur, j'ai installé Windows ADK, MDT et le rôle WDS, puis préparé le déploiement automatique de Windows 11 vers le poste client par le réseau. Le scénario : une entreprise de 300 employés.\n\nTP 2 : l'architecture Active Directory d'une entreprise avec un siège de 200 utilisateurs et deux agences de 50. Au programme : un contrôleur de domaine principal et un secondaire, la réplication entre les sites, un contrôleur en lecture seule dans les agences et une autorité de certification.",
+      "ce_que_jai_appris": "Comment une entreprise contrôle qui a accès à quoi, ce qui est la base de la sécurité des identités, et comment préparer des dizaines de postes sans les installer un par un.",
+      "code_etat": "infra",
+      "code_lien": "",
+      "rapport": ""
+    },
+    {
+      "code": "DOSSIER-05",
+      "categorie": "Sécurité applicative",
+      "contexte": "Projet solo",
+      "note": "En test réel",
+      "mise_en_avant": true,
+      "titre": "Cercly",
+      "resume": "Un registre en ligne pour les tontines et les associations, pensé pour être sûr dès la conception.",
+      "mots_cles": "Contrôle d'accès, Séparation des tâches",
+      "outils": "TypeScript, React, Supabase, PostgreSQL, Vercel",
+      "pour_debutant": "Une tontine, c'est un groupe qui met de l'argent en commun chaque mois. Cercly sert de cahier partagé : chacun envoie la preuve de son paiement, et tout le monde voit qui a cotisé. L'argent, lui, ne passe jamais par l'application.\n\nLa sécurité est dans les règles : trois personnes valident chaque justificatif, et personne ne peut valider le sien. C'est la séparation des tâches, un principe de base en sécurité. Les justificatifs sont rangés dans un espace privé, l'adresse e-mail est confirmée à l'inscription, et la double authentification est disponible.\n\nReact construit ce que l'utilisateur voit. Supabase fournit la base de données et la connexion des comptes. Vercel met le site en ligne.",
+      "ce_que_jai_fait": "J'ai écrit le cahier des charges, conçu la base de données, développé l'interface et mis l'application en ligne. Elle est testée par un vrai groupe de neuf membres.",
+      "ce_que_jai_appris": "Penser la sécurité avant d'écrire le code, et adapter un produit aux retours de vrais utilisateurs.",
+      "code_etat": "prive",
+      "code_lien": "",
+      "rapport": ""
+    },
+    {
+      "code": "DOSSIER-06",
+      "categorie": "Développement web",
+      "contexte": "Projet d'équipe · partie serveur",
+      "note": "",
+      "mise_en_avant": false,
+      "titre": "Réseau social (API)",
+      "resume": "La partie serveur d'une application mobile de réseau social : comptes, publications, stories, messagerie et notifications.",
+      "mots_cles": "API, Partie serveur",
+      "outils": "Python, Django, Django REST Framework",
+      "pour_debutant": "Une application a deux parties. L'interface est ce que l'on voit sur son téléphone. La partie serveur garde les données et applique les règles : qui peut voir quoi, qui peut écrire à qui.\n\nLes deux parties communiquent par une API : une liste de « guichets » où l'application envoie une demande (« affiche les publications de mes amis ») et reçoit une réponse.",
+      "ce_que_jai_fait": "Dans une équipe où chacun avait son rôle, j'ai pris la partie serveur. J'ai rédigé le cahier des charges technique, puis développé l'API avec Django REST Framework, organisée en modules : utilisateurs, publications, stories, messagerie et notifications.",
+      "ce_que_jai_appris": "Découper une application en modules, écrire un cahier des charges technique et travailler avec une équipe qui construit l'interface en parallèle.",
+      "code_etat": "pas_encore",
+      "code_lien": "",
+      "rapport": ""
+    },
+    {
+      "code": "DOSSIER-07",
+      "categorie": "Conception",
+      "contexte": "Équipe de 2",
+      "note": "Cahier des charges",
+      "mise_en_avant": false,
+      "titre": "Appli de révisions",
+      "resume": "Une application mobile et web pour aider les collégiens et lycéens à réviser.",
+      "mots_cles": "Cahier des charges, Travail d'équipe",
+      "outils": "JavaScript, Python",
+      "pour_debutant": "Avant de programmer une application, on écrit un cahier des charges : un document qui décrit à qui elle s'adresse, ce qu'elle doit faire et avec quels outils elle sera construite.\n\nCette application proposera des cours, des exercices, des documents, un assistant conversationnel et un mode hors connexion.",
+      "ce_que_jai_fait": "J'ai rédigé le cahier des charges avec mon binôme et nous avons choisi les technologies : JavaScript pour l'interface, Python pour le serveur.",
+      "ce_que_jai_appris": "Définir un projet clairement avant de le coder.",
+      "code_etat": "pas_encore",
+      "code_lien": "",
+      "rapport": ""
+    }
+  ],
+  "competences": [
+    {
+      "code": "C1",
+      "titre": "Réseau",
+      "elements": "Cisco, Routage et commutation, Fibre optique (simulation)"
+    },
+    {
+      "code": "C2",
+      "titre": "Systèmes",
+      "elements": "Active Directory, MDT et WDS, VMware"
+    },
+    {
+      "code": "C3",
+      "titre": "Supervision",
+      "elements": "Zabbix, SolarWinds NPM, Détection d'intrusion"
+    },
+    {
+      "code": "C4",
+      "titre": "Développement",
+      "elements": "Python, Java, SQL, Django, TypeScript et React"
+    },
+    {
+      "code": "C5",
+      "titre": "Données",
+      "elements": "R, Excel, Tableau, Objectif : protection des données (DPO)"
+    }
+  ]
+}
