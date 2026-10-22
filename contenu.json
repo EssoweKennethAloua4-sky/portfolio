@@ -52,18 +52,18 @@
     {
       "code": "DOSSIER-01",
       "categorie": "Détection",
-      "contexte": "Projet solo",
+      "contexte": "Projet solo · version 2 (2026)",
       "note": "15/20",
       "mise_en_avant": true,
       "titre": "IDS Monitor",
-      "resume": "Un logiciel qui surveille le réseau et prévient quand il voit un comportement suspect.",
+      "resume": "Un logiciel avec interface graphique qui surveille le réseau et prévient quand il repère une attaque.",
       "mots_cles": "Détection d'intrusion, Alertes, Historique",
-      "outils": "Python, Tkinter, MySQL",
+      "outils": "Python, Tkinter, Scapy, SQLite",
       "pour_debutant": "Un IDS, ou système de détection d'intrusion, joue le rôle d'une caméra de surveillance pour un réseau informatique. Il observe les échanges entre les ordinateurs et les compare à des comportements suspects connus.\n\nExemple : quelqu'un qui « frappe à toutes les portes » d'un ordinateur pour trouver une entrée ouverte. On appelle ça un balayage de ports. L'IDS ne bloque rien lui-même : son travail est de repérer et de prévenir.",
-      "ce_que_jai_fait": "J'ai programmé l'application seul, en Python. L'interface graphique, faite avec Tkinter, affiche les alertes à l'écran. Chaque alerte est enregistrée dans une base de données MySQL pour garder un historique consultable.",
-      "ce_que_jai_appris": "Comment circulent les échanges sur un réseau, ce qui distingue un trafic normal d'un trafic suspect, et comment relier une interface, un programme et une base de données dans une même application.",
-      "code_etat": "pas_encore",
-      "code_lien": "",
+      "ce_que_jai_fait": "La première version, faite seul en licence, a obtenu 15/20. En 2026, je l'ai entièrement réécrite.\n\nLe logiciel écoute le trafic réel de la carte réseau avec Scapy, ou simule un petit réseau en mode démo. Il repère quatre attaques : balayage de ports, force brute sur SSH ou RDP, inondation de paquets et usurpation ARP (l'attaque de l'homme du milieu). Chaque alerte s'affiche en direct avec sa gravité et un conseil sur la marche à suivre, puis elle est enregistrée dans une base SQLite que l'on peut filtrer et exporter en CSV.\n\nLe projet est couvert par 14 tests automatiques.",
+      "ce_que_jai_appris": "Comment se reconnaît une attaque dans le trafic, ce qu'est une fenêtre glissante, comment éviter les fausses alertes, et comment garder une interface fluide pendant qu'un autre fil d'exécution capture les paquets.",
+      "code_etat": "github",
+      "code_lien": "https://github.com/EssoweKennethAloua4-sky/ids-monitor",
       "rapport": ""
     },
     {
@@ -130,8 +130,8 @@
       "pour_debutant": "Une tontine, c'est un groupe qui met de l'argent en commun chaque mois. Cercly sert de cahier partagé : chacun envoie la preuve de son paiement, et tout le monde voit qui a cotisé. L'argent, lui, ne passe jamais par l'application.\n\nLa sécurité est dans les règles : trois personnes valident chaque justificatif, et personne ne peut valider le sien. C'est la séparation des tâches, un principe de base en sécurité. Les justificatifs sont rangés dans un espace privé, l'adresse e-mail est confirmée à l'inscription, et la double authentification est disponible.\n\nReact construit ce que l'utilisateur voit. Supabase fournit la base de données et la connexion des comptes. Vercel met le site en ligne.",
       "ce_que_jai_fait": "J'ai écrit le cahier des charges, conçu la base de données, développé l'interface et mis l'application en ligne. Elle est testée par un vrai groupe de neuf membres.",
       "ce_que_jai_appris": "Penser la sécurité avant d'écrire le code, et adapter un produit aux retours de vrais utilisateurs.",
-      "code_etat": "prive",
-      "code_lien": "",
+      "code_etat": "github",
+      "code_lien": "https://github.com/EssoweKennethAloua4-sky/cercly-app",
       "rapport": ""
     },
     {
