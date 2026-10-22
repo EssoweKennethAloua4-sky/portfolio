@@ -18,7 +18,19 @@
   },
   "parcours": [
     {
-      "quand": "Lomé",
+      "quand": "2023 – 2024",
+      "etat": "fait",
+      "titre": "Baccalauréat général · Complexe scolaire Bakhita, Togo",
+      "texte": "Obtention du baccalauréat général."
+    },
+    {
+      "quand": "2024 – 2025",
+      "etat": "fait",
+      "titre": "Formation en langue allemande · Goethe-Institut de Lomé",
+      "texte": "Niveau A1."
+    },
+    {
+      "quand": "2025 – 2026",
       "etat": "fait",
       "titre": "Licence 1 Cybersécurité · iP Net Institute of Technology",
       "texte": "Réseaux, Active Directory, déploiement de postes, supervision, modélisation UML et Merise."
@@ -27,7 +39,7 @@
       "quand": "Cisco",
       "etat": "fait",
       "titre": "Certifications Cisco NetAcad",
-      "texte": "Dont le cours d'introduction à la science des données."
+      "texte": "5 certificats, dont Python Essentials 1 et Introduction à l'IA moderne (voir plus bas)."
     },
     {
       "quand": "Sept. 2026",
@@ -194,6 +206,33 @@
       "code": "C5",
       "titre": "Données",
       "elements": "R, Excel, Tableau, Objectif : protection des données (DPO)"
+    }
+  ],
+  "certifications": [
+    {
+      "titre": "Python Essentials 1",
+      "organisme": "Cisco Networking Academy",
+      "fichier": "certifications/python-essentials-1.pdf"
+    },
+    {
+      "titre": "Introduction à l'IA moderne",
+      "organisme": "Cisco Networking Academy",
+      "fichier": "certifications/introduction-to-modern-ai.pdf"
+    },
+    {
+      "titre": "Premiers pas avec Cisco Packet Tracer",
+      "organisme": "Cisco Networking Academy",
+      "fichier": "certifications/getting-started-packet-tracer.pdf"
+    },
+    {
+      "titre": "Computer Hardware Basics",
+      "organisme": "Cisco Networking Academy",
+      "fichier": "certifications/computer-hardware-basics.pdf"
+    },
+    {
+      "titre": "Hardware and Upgrade Support",
+      "organisme": "Cisco Networking Academy · IPNET",
+      "fichier": "certifications/hardware-and-upgrade-support.pdf"
     }
   ]
 }
