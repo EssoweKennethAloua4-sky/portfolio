@@ -225,25 +225,6 @@
       "rapport": "",
       "statut": "en_cours",
       "demo_lien": ""
-    },
-    {
-      "code": "DOSSIER-10",
-      "categorie": "Transmission",
-      "contexte": "Projet solo",
-      "note": "",
-      "mise_en_avant": false,
-      "titre": "Ebook Python en 30 jours",
-      "resume": "Un guide pour débuter en Python, découpé en 30 jours, que je vends en ligne sur ma boutique YKS Lab.",
-      "mots_cles": "Pédagogie, Produit numérique",
-      "outils": "Python",
-      "pour_debutant": "Python est un langage de programmation très utilisé, en data comme en cybersécurité. Le guide découpe son apprentissage en 30 petites étapes, une par jour, pour avancer sans se décourager.",
-      "ce_que_jai_fait": "J'ai écrit l'ebook, organisé le contenu jour par jour, puis je l'ai publié en novembre 2026 sur ma boutique en ligne, YKS Lab.",
-      "ce_que_jai_appris": "Expliquer simplement ce que je sais, et transformer une compétence en produit.",
-      "code_etat": "produit",
-      "code_lien": "",
-      "rapport": "",
-      "statut": "termine",
-      "demo_lien": ""
     }
   ],
   "competences": [
