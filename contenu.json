@@ -70,7 +70,9 @@
       "ce_que_jai_appris": "Comment se reconnaît une attaque dans le trafic, ce qu'est une fenêtre glissante, comment éviter les fausses alertes, et comment garder une interface fluide pendant qu'un autre fil d'exécution capture les paquets.",
       "code_etat": "github",
       "code_lien": "https://github.com/EssoweKennethAloua4-sky/ids-monitor",
-      "rapport": ""
+      "rapport": "",
+      "statut": "termine",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-02",
@@ -87,7 +89,9 @@
       "ce_que_jai_appris": "Piloter une équipe technique avec un vrai planning, comprendre comment une entreprise détecte une panne avant ses utilisateurs, et chiffrer une solution comme pour un client.",
       "code_etat": "infra",
       "code_lien": "",
-      "rapport": "rapports/Rapport_Zabbix_Essowe_Kenneth_Aloua.pdf"
+      "rapport": "rapports/Rapport_Zabbix_Essowe_Kenneth_Aloua.pdf",
+      "statut": "termine",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-03",
@@ -104,7 +108,9 @@
       "ce_que_jai_appris": "Passer d'un schéma de classes à un programme qui fonctionne, utiliser l'héritage et les énumérations, et comprendre de l'intérieur comment fonctionne un outil de supervision.",
       "code_etat": "github",
       "code_lien": "https://github.com/EssoweKennethAloua4-sky/simulation-solarwinds-npm",
-      "rapport": "rapports/Rapport_SolarWinds_NPM_Essowe_Kenneth_Aloua.pdf"
+      "rapport": "rapports/Rapport_SolarWinds_NPM_Essowe_Kenneth_Aloua.pdf",
+      "statut": "termine",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-04",
@@ -121,7 +127,9 @@
       "ce_que_jai_appris": "Comment une entreprise contrôle qui a accès à quoi, ce qui est la base de la sécurité des identités, et comment préparer des dizaines de postes sans les installer un par un.",
       "code_etat": "infra",
       "code_lien": "",
-      "rapport": ""
+      "rapport": "",
+      "statut": "termine",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-05",
@@ -138,7 +146,9 @@
       "ce_que_jai_appris": "Penser la sécurité avant d'écrire le code, et adapter un produit aux retours de vrais utilisateurs.",
       "code_etat": "github",
       "code_lien": "https://github.com/EssoweKennethAloua4-sky/cercly-app",
-      "rapport": ""
+      "rapport": "",
+      "statut": "en_cours",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-06",
@@ -155,7 +165,9 @@
       "ce_que_jai_appris": "Découper une application en modules, écrire un cahier des charges technique et travailler avec une équipe qui construit l'interface en parallèle.",
       "code_etat": "pas_encore",
       "code_lien": "",
-      "rapport": ""
+      "rapport": "",
+      "statut": "en_cours",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-07",
@@ -172,7 +184,9 @@
       "ce_que_jai_appris": "Définir un projet clairement avant de le coder.",
       "code_etat": "pas_encore",
       "code_lien": "",
-      "rapport": ""
+      "rapport": "",
+      "statut": "en_cours",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-08",
@@ -189,13 +203,15 @@
       "ce_que_jai_appris": "Séparer les données du programme, faire tourner une même logique dans plusieurs interfaces, et récolter des contributions sans abîmer la base principale.",
       "code_etat": "github",
       "code_lien": "https://github.com/EssoweKennethAloua4-sky/Quiz_TOGO",
-      "rapport": ""
+      "rapport": "",
+      "statut": "termine",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-09",
       "categorie": "Développement web",
       "contexte": "Projet pour une cliente",
-      "note": "En cours",
+      "note": "",
       "mise_en_avant": false,
       "titre": "Hair By Bettis",
       "resume": "Le site d'une coiffeuse spécialisée en tresses à Grenoble, avec réservation en ligne et un espace pour gérer le site elle-même.",
@@ -206,13 +222,15 @@
       "ce_que_jai_appris": "Travailler pour une vraie cliente, traduire ses besoins en fonctionnalités, et rendre un outil simple pour quelqu'un qui n'est pas du métier.",
       "code_etat": "prive",
       "code_lien": "",
-      "rapport": ""
+      "rapport": "",
+      "statut": "en_cours",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-10",
       "categorie": "Transmission",
       "contexte": "Projet solo",
-      "note": "Publié",
+      "note": "",
       "mise_en_avant": false,
       "titre": "Ebook Python en 30 jours",
       "resume": "Un guide pour débuter en Python, découpé en 30 jours, que je vends en ligne sur ma boutique YKS Lab.",
@@ -223,7 +241,9 @@
       "ce_que_jai_appris": "Expliquer simplement ce que je sais, et transformer une compétence en produit.",
       "code_etat": "produit",
       "code_lien": "",
-      "rapport": ""
+      "rapport": "",
+      "statut": "termine",
+      "demo_lien": ""
     }
   ],
   "competences": [
