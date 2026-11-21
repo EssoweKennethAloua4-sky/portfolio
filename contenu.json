@@ -148,26 +148,26 @@
       "code_lien": "https://github.com/EssoweKennethAloua4-sky/cercly-app",
       "rapport": "",
       "statut": "termine",
-      "demo_lien": ""
+      "demo_lien": "https://cercly-app-pvqj.vercel.app"
     },
     {
       "code": "DOSSIER-06",
       "categorie": "Application complète",
       "contexte": "Projet à deux",
-      "note": "En ligne",
+      "note": "Accès réservé",
       "mise_en_avant": true,
       "titre": "BFamily",
       "resume": "Le réseau social des élèves et anciens élèves du complexe scolaire Bakhita : messagerie, publications, stories, vidéos et application Android.",
       "mots_cles": "Messagerie instantanée, Sécurité des comptes, Application mobile",
       "outils": "Python, Django, Django REST Framework, React, PostgreSQL, Redis, Capacitor",
-      "pour_debutant": "BFamily permet aux anciens élèves d'une même école de se retrouver, de voir ce que chacun est devenu et de discuter entre eux.\n\nUne application comme celle-ci a deux parties. L'interface est ce que l'on voit sur son téléphone. Le serveur garde les données et applique les règles : qui peut voir quoi, qui peut écrire à qui. Pour discuter, il faut d'abord qu'une invitation soit acceptée, ce qui évite les messages non désirés.",
+      "pour_debutant": "BFamily permet aux anciens élèves d'une même école de se retrouver, de voir ce que chacun est devenu et de discuter entre eux.\n\nUne application comme celle-ci a deux parties. L'interface est ce que l'on voit sur son téléphone. Le serveur garde les données et applique les règles : qui peut voir quoi, qui peut écrire à qui. Pour discuter, il faut d'abord qu'une invitation soit acceptée, ce qui évite les messages non désirés.\n\nL'accès est réservé aux anciens élèves du complexe scolaire Bakhita, à Sokodé au Togo : on ne peut pas s'y inscrire de l'extérieur.",
       "ce_que_jai_fait": "J'ai construit l'application avec un camarade, du serveur jusqu'à l'interface. Elle est en ligne et utilisée par les élèves et anciens élèves de l'école.\n\nParmi ce que j'ai développé : la messagerie, le direct avec commentaires en temps réel, le montage vidéo depuis le téléphone, les anniversaires, les messages de bienvenue et la version Android.\n\nJ'ai aussi travaillé la sécurité : codes de vérification limités, mots de passe plus solides, sessions qui expirent, et correction des remarques des outils d'analyse de code (SonarCloud, CodeRabbit) et d'un audit de sécurité.",
       "ce_que_jai_appris": "Mener une application de bout en bout avec de vrais utilisateurs, travailler à deux sur le même code avec des pull requests et des tests automatiques, et corriger les failles signalées par un audit.",
       "code_etat": "prive",
       "code_lien": "",
       "rapport": "",
       "statut": "termine",
-      "demo_lien": "https://bfamily-app.vercel.app"
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-07",
