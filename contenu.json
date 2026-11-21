@@ -48,12 +48,6 @@
       "texte": "Mathématiques et informatique appliquées aux sciences humaines et sociales."
     },
     {
-      "quand": "Oct. 2026",
-      "etat": "en_cours",
-      "titre": "Demande de réorientation",
-      "texte": "Vers le parcours Informatique, Mathématiques et Applications."
-    },
-    {
       "quand": "Objectif",
       "etat": "prevu",
       "titre": "Master en cybersécurité",
@@ -76,7 +70,9 @@
       "ce_que_jai_appris": "Comment se reconnaît une attaque dans le trafic, ce qu'est une fenêtre glissante, comment éviter les fausses alertes, et comment garder une interface fluide pendant qu'un autre fil d'exécution capture les paquets.",
       "code_etat": "github",
       "code_lien": "https://github.com/EssoweKennethAloua4-sky/ids-monitor",
-      "rapport": ""
+      "rapport": "",
+      "statut": "termine",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-02",
@@ -93,7 +89,9 @@
       "ce_que_jai_appris": "Piloter une équipe technique avec un vrai planning, comprendre comment une entreprise détecte une panne avant ses utilisateurs, et chiffrer une solution comme pour un client.",
       "code_etat": "infra",
       "code_lien": "",
-      "rapport": "rapports/Rapport_Zabbix_Essowe_Kenneth_Aloua.pdf"
+      "rapport": "rapports/Rapport_Zabbix_Essowe_Kenneth_Aloua.pdf",
+      "statut": "termine",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-03",
@@ -110,7 +108,9 @@
       "ce_que_jai_appris": "Passer d'un schéma de classes à un programme qui fonctionne, utiliser l'héritage et les énumérations, et comprendre de l'intérieur comment fonctionne un outil de supervision.",
       "code_etat": "github",
       "code_lien": "https://github.com/EssoweKennethAloua4-sky/simulation-solarwinds-npm",
-      "rapport": "rapports/Rapport_SolarWinds_NPM_Essowe_Kenneth_Aloua.pdf"
+      "rapport": "rapports/Rapport_SolarWinds_NPM_Essowe_Kenneth_Aloua.pdf",
+      "statut": "termine",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-04",
@@ -127,13 +127,15 @@
       "ce_que_jai_appris": "Comment une entreprise contrôle qui a accès à quoi, ce qui est la base de la sécurité des identités, et comment préparer des dizaines de postes sans les installer un par un.",
       "code_etat": "infra",
       "code_lien": "",
-      "rapport": ""
+      "rapport": "",
+      "statut": "termine",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-05",
       "categorie": "Sécurité applicative",
       "contexte": "Projet solo",
-      "note": "En test réel",
+      "note": "Testé par 9 membres",
       "mise_en_avant": true,
       "titre": "Cercly",
       "resume": "Un registre en ligne pour les tontines et les associations, pensé pour être sûr dès la conception.",
@@ -144,24 +146,28 @@
       "ce_que_jai_appris": "Penser la sécurité avant d'écrire le code, et adapter un produit aux retours de vrais utilisateurs.",
       "code_etat": "github",
       "code_lien": "https://github.com/EssoweKennethAloua4-sky/cercly-app",
-      "rapport": ""
+      "rapport": "",
+      "statut": "termine",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-06",
-      "categorie": "Développement web",
-      "contexte": "Projet d'équipe · partie serveur",
-      "note": "",
-      "mise_en_avant": false,
-      "titre": "Réseau social (API)",
-      "resume": "La partie serveur d'une application mobile de réseau social : comptes, publications, stories, messagerie et notifications.",
-      "mots_cles": "API, Partie serveur",
-      "outils": "Python, Django, Django REST Framework",
-      "pour_debutant": "Une application a deux parties. L'interface est ce que l'on voit sur son téléphone. La partie serveur garde les données et applique les règles : qui peut voir quoi, qui peut écrire à qui.\n\nLes deux parties communiquent par une API : une liste de « guichets » où l'application envoie une demande (« affiche les publications de mes amis ») et reçoit une réponse.",
-      "ce_que_jai_fait": "Dans une équipe où chacun avait son rôle, j'ai pris la partie serveur. J'ai rédigé le cahier des charges technique, puis développé l'API avec Django REST Framework, organisée en modules : utilisateurs, publications, stories, messagerie et notifications.",
-      "ce_que_jai_appris": "Découper une application en modules, écrire un cahier des charges technique et travailler avec une équipe qui construit l'interface en parallèle.",
-      "code_etat": "pas_encore",
+      "categorie": "Application complète",
+      "contexte": "Projet à deux",
+      "note": "En ligne",
+      "mise_en_avant": true,
+      "titre": "BFamily",
+      "resume": "Le réseau social des élèves et anciens élèves du complexe scolaire Bakhita : messagerie, publications, stories, vidéos et application Android.",
+      "mots_cles": "Messagerie instantanée, Sécurité des comptes, Application mobile",
+      "outils": "Python, Django, Django REST Framework, React, PostgreSQL, Redis, Capacitor",
+      "pour_debutant": "BFamily permet aux anciens élèves d'une même école de se retrouver, de voir ce que chacun est devenu et de discuter entre eux.\n\nUne application comme celle-ci a deux parties. L'interface est ce que l'on voit sur son téléphone. Le serveur garde les données et applique les règles : qui peut voir quoi, qui peut écrire à qui. Pour discuter, il faut d'abord qu'une invitation soit acceptée, ce qui évite les messages non désirés.",
+      "ce_que_jai_fait": "J'ai construit l'application avec un camarade, du serveur jusqu'à l'interface. Elle est en ligne et utilisée par les élèves et anciens élèves de l'école.\n\nParmi ce que j'ai développé : la messagerie, le direct avec commentaires en temps réel, le montage vidéo depuis le téléphone, les anniversaires, les messages de bienvenue et la version Android.\n\nJ'ai aussi travaillé la sécurité : codes de vérification limités, mots de passe plus solides, sessions qui expirent, et correction des remarques des outils d'analyse de code (SonarCloud, CodeRabbit) et d'un audit de sécurité.",
+      "ce_que_jai_appris": "Mener une application de bout en bout avec de vrais utilisateurs, travailler à deux sur le même code avec des pull requests et des tests automatiques, et corriger les failles signalées par un audit.",
+      "code_etat": "prive",
       "code_lien": "",
-      "rapport": ""
+      "rapport": "",
+      "statut": "termine",
+      "demo_lien": "https://bfamily-app.vercel.app"
     },
     {
       "code": "DOSSIER-07",
@@ -178,7 +184,9 @@
       "ce_que_jai_appris": "Définir un projet clairement avant de le coder.",
       "code_etat": "pas_encore",
       "code_lien": "",
-      "rapport": ""
+      "rapport": "",
+      "statut": "en_cours",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-08",
@@ -195,13 +203,15 @@
       "ce_que_jai_appris": "Séparer les données du programme, faire tourner une même logique dans plusieurs interfaces, et récolter des contributions sans abîmer la base principale.",
       "code_etat": "github",
       "code_lien": "https://github.com/EssoweKennethAloua4-sky/Quiz_TOGO",
-      "rapport": ""
+      "rapport": "",
+      "statut": "en_cours",
+      "demo_lien": ""
     },
     {
       "code": "DOSSIER-09",
       "categorie": "Développement web",
       "contexte": "Projet pour une cliente",
-      "note": "En cours",
+      "note": "",
       "mise_en_avant": false,
       "titre": "Hair By Bettis",
       "resume": "Le site d'une coiffeuse spécialisée en tresses à Grenoble, avec réservation en ligne et un espace pour gérer le site elle-même.",
@@ -212,24 +222,9 @@
       "ce_que_jai_appris": "Travailler pour une vraie cliente, traduire ses besoins en fonctionnalités, et rendre un outil simple pour quelqu'un qui n'est pas du métier.",
       "code_etat": "prive",
       "code_lien": "",
-      "rapport": ""
-    },
-    {
-      "code": "DOSSIER-10",
-      "categorie": "Transmission",
-      "contexte": "Projet solo",
-      "note": "Publié",
-      "mise_en_avant": false,
-      "titre": "Ebook Python en 30 jours",
-      "resume": "Un guide pour débuter en Python, découpé en 30 jours, que je vends en ligne sur ma boutique YKS Lab.",
-      "mots_cles": "Pédagogie, Produit numérique",
-      "outils": "Python",
-      "pour_debutant": "Python est un langage de programmation très utilisé, en data comme en cybersécurité. Le guide découpe son apprentissage en 30 petites étapes, une par jour, pour avancer sans se décourager.",
-      "ce_que_jai_fait": "J'ai écrit l'ebook, organisé le contenu jour par jour, puis je l'ai publié en novembre 2026 sur ma boutique en ligne, YKS Lab.",
-      "ce_que_jai_appris": "Expliquer simplement ce que je sais, et transformer une compétence en produit.",
-      "code_etat": "produit",
-      "code_lien": "",
-      "rapport": ""
+      "rapport": "",
+      "statut": "termine",
+      "demo_lien": ""
     }
   ],
   "competences": [
